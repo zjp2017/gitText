@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Untitled</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
+
+        <script>
+        	
+      
+      //  1.打印100–200之间所有能被3或者7整除的数           
+        
+
+
+        // for (var i=100; i < 200; i++) {
+           
+        //   // console.log(i);
+
+        //    if(i%3==0||i%7==0){
+
+        //         console.log(i);
+        //    }
+
+        // }
+        
+
+
+
+
+ //     2.计算10的阶乘   (1*2*3*4*5*6*7*8*9*10   n的阶乘1*2……*n)
+        
+
+    // var sum=0;
+
+    // for (var i = 1; i <= 100; i++) {
+    //     sum+=i;
+    // }
+    // alert(sum);
+
+
+
+
+    // var sum=1;
+
+    // for (var i = 1; i <=10; i++) {
+    //     sum*=i;
+    // }
+    // alert(sum);
+
+
+    // sum=1*1
+
+    // sum=1*2
+
+    // sum=1*2*3
+
+
+
+
+
+
+ //    var a=2;
+
+ // 从右向左运算
+ //    a=a+2;  
+
+
+ //    a+=2;  /*a=a+2*/
+
+
+
+
+ // 3.打印100以内的奇数
+
+
+// 看第一题
+
+
+
+// 4.计算1+3+5+...+99的和
+
+
+// var sum=0;
+
+// for (var i = 1; i <100; i++) {
+    
+//     if(i%2!=0){
+//         sum+=i;
+//     }
+// }
+
+
+// alert(sum);
+
+
+
+
+
+
+
+
+// 5.求出1-1/2+1/3-1/4+1/5-1/6…..1/100的和 var i=1;  i*-1*-1
+
+
+
+//1/1
+//
+//-1/2
+//
+//1/3
+//
+//-1/4
+//
+//1/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 1/1    +      -1/2    +   +1/3     +     -1/4    +1/5   -1/6
+
+
+
+
+// var sum=0;
+// for (var i = 1; i <=100; i++) {
+   
+//     if(i%2==0){
+//         sum+=-1/i;
+//     }else{
+//         sum+=1/i;
+
+//         // sum=0.5+0.33
+
+//     }
+
+// }
+
+// alert(sum);
+
+
+
+
+
+
+
+  /*
+
+        6.宰相的麦子：相传古印度宰相达依尔，是国际象棋的发明者。有一次，国王因为他的贡献要奖励他，问他想要什么。达依尔说：“只要在国际象棋棋盘上（共64格）摆上这么些麦子就行了：第一格一粒，第二格两粒，第三格四粒  第四格8粒  第五格16粒    ……，后面一格的麦子总是前一格麦子数的两倍，摆满整个棋盘，我就感恩不尽了。”国王一想，这还不容易，刚想答应，如果你这时在国王旁边站着，你会不会劝国王别答应，为什么？       
+
+    
+        */
+
+
+    //    1 + 2  + 4 + 8 + 16 + 32  +64       64次
+
+
+    // 1+2+3+4
+
+
+        // var sum=0; 
+        // var temp=1;  /*上一次的值*/
+
+        // for (var i = 0; i <64; i++) {
+           
+        //    sum+=temp;  //1.temp=1    2.temp=2   3.temp=4   4.temp=8   6.temp=16
+
+        //    temp*=2;    //1.temp=2     2.temp=4   3.temp=8   4.temp=16
+        // }
+
+
+        // alert(sum);
+
+
+ // 1  + 2  +4 +8 +16
+
+
+        var sum=0; 
+
+        var temp=1;
+       
+        for (var i = 0; i <64; i++) {
+           
+           sum+=temp;  //1.temp=1    2.temp=2   3.temp=4   4.temp=8   6.temp=16
+
+           temp=temp*2;
+
+        }
+
+        // var a=0;
+
+        // a=3;
+
+        // a+=4;  //a=a+4;
+
+
+        // a+=8; //a=a+8;
+
+        // alert(15)
+
+
+
+
+
+   
+        </script>
+    </head>
+    <body>
+       
+
+    </body>
+</html>
